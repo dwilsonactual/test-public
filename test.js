@@ -105,6 +105,10 @@ for (let value of myGenerator()) {
   console.log(value);
 }
 
+function foo() {
+  console.log(12);
+}
+
 const myAsyncFunction = async function () {
   const result = await myPromise;
   console.log(result);
